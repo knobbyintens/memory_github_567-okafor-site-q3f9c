@@ -1,0 +1,21 @@
+title: "Lena Okafor"
+description: "Lena Okafor — Principal Firmware Engineer at Fernwood Labs"
+url: "https://fernwood-labs.example"
+baseurl: ""
+
+markdown: kramdown
+
+collections:
+  engagements:
+    output: true
+    permalink: /engagements/:slug/
+
+defaults:
+  - scope:
+      path: ""
+      type: engagements
+    values:
+      layout: engagement
+
+exclude:
+  - README.md
